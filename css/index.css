@@ -5,7 +5,75 @@ html {
   margin: 0 auto;
   position: relative;
 }
+header {
+  background-color: #89cf80;
+}
 .grid {
   display: grid;
-  grid-template-columns: 
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 20px;
+}
+#social {
+  float: right;
+  width: 40%;
+  margin-right: 5%;
+  margin-top: 20px;
+}
+#social>a {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color: #48e33d;
+  margin-left: 2%;
+  width: 30px;
+  height: 30px;
+  float: right;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  font-size: 1.2em;
+}
+#social>a:hover {
+  background-color: #0d0b0d;
+}
+
+.grid div {
+  background-color:;
+}
+body {
+  background-image: url("images/old-wood.jpg");
+}
+
+.team-item {
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.team-item h3 {
+font-size: 25px;
+    font-weight: 300;
+    margin: 30px 0 20px;
+    text-transform: uppercase;
+}
+
+.team-item .team-position {
+color: #565656;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.team-item p {
+	font-size: 13px;
+	font-weight: 500;
+	color: #848484;
+	padding: 18px 30px 35px 30px;
+	line-height: 24px;
+}
+
+img {
+  max-width: 100%;
+}
+.row {
+  padding-top: 20px;
 }
