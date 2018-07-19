@@ -5,25 +5,33 @@ html {
   margin: 0 auto;
   position: relative;
 }
-header {
-  background-color: #89cf80;
+title {
+
 }
+
+header {
+  background-color: #000;
+  color: #B7B7B7;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 20px;
 }
+
 #social {
   float: right;
   width: 40%;
   margin-right: 5%;
   margin-top: 20px;
 }
+
 #social>a {
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  background-color: #48e33d;
+  background-color: #fff001;
   margin-left: 2%;
   width: 30px;
   height: 30px;
@@ -33,78 +41,116 @@ header {
   line-height: 30px;
   font-size: 1.2em;
 }
+
 #social>a:hover {
   background-color: #0d0b0d;
 }
 
 .grid div {
-  background-color:;
+  background-color: ;
 }
+
 body {
-  background-image: url("images/old-wood.jpg");
+  background-image: url("../images/old-wood.jpg");
 }
 
 .team-item {
-    text-align: center;
-    background-color: #F5F5F5;
+  text-align: center;
+  background-color: #F5F5F5;
 }
 
 .team-item h3 {
-font-size: 25px;
-    font-weight: 300;
-    margin: 30px 0 20px;
-    text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 30px 0 20px;
+  text-transform: uppercase;
 }
 
 .team-item .team-position {
-color: #565656;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 500;
+  color: #565656;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .team-item p {
-	font-size: 13px;
-	font-weight: 500;
-	color: #848484;
-	padding: 18px 30px 35px 30px;
-	line-height: 24px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #848484;
+  padding: 18px 30px 35px 30px;
+  line-height: 24px;
 }
 
 img {
   max-width: 100%;
 }
+
 .row {
   padding-top: 20px;
 }
+
 /* Back to top button
 ---------------------------------- */
+
 #back-top {
-    position: fixed;
-    z-index: 1000;
-    bottom: 40px;
-    right: 50px;
+  position: fixed;
+  z-index: 1000;
+  bottom: 40px;
+  right: 50px;
 }
+
 #back-top a {
-    width: 60px;
-    height: 60px;
-    display: block;
-    text-align: center;
-    font: 11px/100% Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #FFFFFF;
-    background: #A9A9B1;
-    /* background color transition */
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    transition: 1s;
+  width: 60px;
+  height: 60px;
+  display: block;
+  text-align: center;
+  font: 11px/100% Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #A9A9B1;
+  /* background color transition */
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
 }
+
 #back-top a:hover {
-    background: #fed136;
+  background: #fed136;
 }
+
 /* arrow icon (span tag) */
+
 #back-top i {
-    margin-top: 15px;
-    font-size: 28px;
+  margin-top: 15px;
+  font-size: 28px;
+}
+
+/*--------------------
+5. Footer
+--------------------*/
+
+footer {
+    padding: 30px;
+    background-color: #000;
+}
+
+footer p {
+    color: #B7B7B7;
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.6px;
+}
+
+footer p a {
+    color: #fff;
+}
+
+footer p a span {
+    color: #FF9F46;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
 }
